@@ -1,0 +1,69 @@
+c:\users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\bin\Debug\Demo.exe.config
+c:\users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\bin\Debug\Demo.exe
+c:\users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\bin\Debug\Demo.pdb
+c:\users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.Form1.resources
+c:\users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+c:\users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.Cache
+c:\users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.exe
+c:\users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.pdb
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.registerForm.resources
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.products.resources
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.loginForm.resources
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.preLogin.resources
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.cartForm.resources
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\bin\Debug\CartForm.resx
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\bin\Debug\CartForm.cs
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\bin\Debug\CartForm.Designer.cs
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.BuyHistory.resources
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.ProfileForm.resources
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.EditProduct.resources
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.homeForm.resources
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.ClientsForm.resources
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.EditClient.resources
+D:\Demo\Demo\bin\Debug\Demo.exe.config
+D:\Demo\Demo\obj\Debug\Demo.exe
+D:\Demo\Demo\obj\Debug\Demo.pdb
+D:\Demo\Demo\bin\Debug\CartForm.resx
+D:\Demo\Demo\bin\Debug\CartForm.cs
+D:\Demo\Demo\bin\Debug\CartForm.Designer.cs
+D:\Demo\Demo\bin\Debug\Demo.exe
+D:\Demo\Demo\bin\Debug\Demo.pdb
+D:\Demo\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache
+D:\Demo\Demo\obj\Debug\Demo.BuyHistory.resources
+D:\Demo\Demo\obj\Debug\Demo.CartForm.resources
+D:\Demo\Demo\obj\Debug\Demo.ClientsForm.resources
+D:\Demo\Demo\obj\Debug\Demo.EditClient.resources
+D:\Demo\Demo\obj\Debug\Demo.EditProduct.resources
+D:\Demo\Demo\obj\Debug\Demo.Form1.resources
+D:\Demo\Demo\obj\Debug\Demo.homeForm.resources
+D:\Demo\Demo\obj\Debug\Demo.loginForm.resources
+D:\Demo\Demo\obj\Debug\Demo.Products.resources
+D:\Demo\Demo\obj\Debug\Demo.ProfileForm.resources
+D:\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+D:\Demo\Demo\obj\Debug\Demo.registerForm.resources
+D:\Demo\Demo\obj\Debug\Demo.preLogin.resources
+D:\Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.Cache
+D:\Projects\technoShop\Application\Demo\bin\Debug\Demo.exe.config
+D:\Projects\technoShop\Application\Demo\obj\Debug\Demo.exe
+D:\Projects\technoShop\Application\Demo\obj\Debug\Demo.pdb
+D:\Projects\technoShop\Application\Demo\bin\Debug\CartForm.resx
+D:\Projects\technoShop\Application\Demo\bin\Debug\CartForm.cs
+D:\Projects\technoShop\Application\Demo\bin\Debug\CartForm.Designer.cs
+D:\Projects\technoShop\Application\Demo\bin\Debug\Demo.exe
+D:\Projects\technoShop\Application\Demo\bin\Debug\Demo.pdb
+D:\Projects\technoShop\Application\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache
+D:\Projects\technoShop\Application\Demo\obj\Debug\Demo.BuyHistory.resources
+D:\Projects\technoShop\Application\Demo\obj\Debug\Demo.CartForm.resources
+D:\Projects\technoShop\Application\Demo\obj\Debug\Demo.ClientsForm.resources
+D:\Projects\technoShop\Application\Demo\obj\Debug\Demo.EditClient.resources
+D:\Projects\technoShop\Application\Demo\obj\Debug\Demo.EditProduct.resources
+D:\Projects\technoShop\Application\Demo\obj\Debug\Demo.Form1.resources
+D:\Projects\technoShop\Application\Demo\obj\Debug\Demo.homeForm.resources
+D:\Projects\technoShop\Application\Demo\obj\Debug\Demo.loginForm.resources
+D:\Projects\technoShop\Application\Demo\obj\Debug\Demo.Products.resources
+D:\Projects\technoShop\Application\Demo\obj\Debug\Demo.ProfileForm.resources
+D:\Projects\technoShop\Application\Demo\obj\Debug\Demo.Properties.Resources.resources
+D:\Projects\technoShop\Application\Demo\obj\Debug\Demo.registerForm.resources
+D:\Projects\technoShop\Application\Demo\obj\Debug\Demo.preLogin.resources
+D:\Projects\technoShop\Application\Demo\obj\Debug\Demo.csproj.GenerateResource.Cache

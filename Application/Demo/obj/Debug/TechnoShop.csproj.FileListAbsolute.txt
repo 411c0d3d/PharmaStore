@@ -1,0 +1,12 @@
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\TechnoShop.csprojResolveAssemblyReference.cache
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.CartForm.resources
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.Form1.resources
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.loginForm.resources
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.Products.resources
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\TechnoShop.Properties.Resources.resources
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.registerForm.resources
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.preLogin.resources
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\TechnoShop.csproj.GenerateResource.Cache
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\bin\Debug\Demo.exe.config
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.exe
+C:\Users\sac0d\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.pdb
