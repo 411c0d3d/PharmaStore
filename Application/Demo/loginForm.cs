@@ -92,11 +92,11 @@ namespace Demo
                             else if (user.Contains("admin"))
                             {
                                 ths.admin = new Admin();
-                                ths.client = null;
                                 ths.admin.Aid = (int)rdr["aid"];
                                 ths.admin.Aname = (string)rdr["aname"];
                                 ths.admin.Email = (string)rdr["email"];
                                 ths.admin.Pwd = (string)rdr["pwd"];
+                                ths.client = null;
                             }
                         }
                         rdr.Close();
@@ -116,7 +116,7 @@ namespace Demo
                     }
                    
                         
-                    if (ths.client != null)
+                    if (ths.client != null && ths.admin == null)
                     {
                         if (ths.sidePanel.Contains(ths.editClient))
                         {
@@ -134,7 +134,7 @@ namespace Demo
                         ths.bHistoryIcon.Image = Demo.Properties.Resources.historyg;
                         ths.bHistoryIcon.Location = new System.Drawing.Point(23, 283);
                         ths.bHistoryIcon.Name = "bHistoryIcon";
-                        ths.bHistoryIcon.Size = new System.Drawing.Size(32, 44);
+                        ths.bHistoryIcon.Size = new System.Drawing.Size(41, 44);
                         ths.bHistoryIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
                         ths.bHistoryIcon.TabIndex = 8;
                         ths.bHistoryIcon.TabStop = false;
@@ -189,7 +189,7 @@ namespace Demo
                         ths.profileIcon.Image = Demo.Properties.Resources.avatarg;
                         ths.profileIcon.Location = new System.Drawing.Point(23, 354);
                         ths.profileIcon.Name = "profileIcon";
-                        ths.profileIcon.Size = new System.Drawing.Size(32, 44);
+                        ths.profileIcon.Size = new System.Drawing.Size(41, 44);
                         ths.profileIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
                         ths.profileIcon.TabIndex = 11;
                         ths.profileIcon.TabStop = false;
@@ -275,7 +275,7 @@ namespace Demo
                         ths.editClientIcon.Image = Demo.Properties.Resources.groupg;
                         ths.editClientIcon.Location = new System.Drawing.Point(23, 283);
                         ths.editClientIcon.Name = "editClientIcon";
-                        ths.editClientIcon.Size = new System.Drawing.Size(32, 44);
+                        ths.editClientIcon.Size = new System.Drawing.Size(41, 44);
                         ths.editClientIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
                         ths.editClientIcon.TabIndex = 8;
                         ths.editClientIcon.TabStop = false;
@@ -299,6 +299,44 @@ namespace Demo
                         ths.editClient.Click += new System.EventHandler(ths.editClient_Click);
                         ths.editClient.MouseLeave += new System.EventHandler(ths.editClient_Leave);
                         ths.editClient.MouseHover += new System.EventHandler(ths.editClient_Hover);
+                        //------------------------------------------------------------------------------------
+                        //addProduct Button
+
+                        ths.addProductB = new System.Windows.Forms.Button();
+                        ths.addProductIcon = new System.Windows.Forms.PictureBox();
+
+                        ths.sidePanel.Controls.Add(ths.addProductIcon);
+                        ths.sidePanel.Controls.Add(ths.addProductB);
+
+                        // addProductB
+                        // 
+                        ths.addProductB.FlatAppearance.BorderSize = 0;
+                        ths.addProductB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+                        ths.addProductB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+                        ths.addProductB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(0)))));
+                        ths.addProductB.Location = new System.Drawing.Point(16, 354);
+                        ths.addProductB.Name = "addProductB";
+                        ths.addProductB.Size = new System.Drawing.Size(186, 44);
+                        ths.addProductB.TabIndex = 10;
+                        ths.addProductB.Text = "              addProduct";
+                        ths.addProductB.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+                        ths.addProductB.UseVisualStyleBackColor = true;
+                        ths.addProductB.Click += new System.EventHandler(ths.addProductB_Click);
+                        ths.addProductB.MouseLeave += new System.EventHandler(ths.addProductB_Leave);
+                        ths.addProductB.MouseHover += new System.EventHandler(ths.addProductB_Hover);
+                        // 
+                        // addProductIcon
+                        // 
+                        ths.addProductIcon.Image = Demo.Properties.Resources.addPg;
+                        ths.addProductIcon.Location = new System.Drawing.Point(23, 354);
+                        ths.addProductIcon.Name = "addProductIcon";
+                        ths.addProductIcon.Size = new System.Drawing.Size(41, 44);
+                        ths.addProductIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+                        ths.addProductIcon.TabIndex = 11;
+                        ths.addProductIcon.TabStop = false;
+                        ths.addProductIcon.Click += new System.EventHandler(ths.addProductB_Click);
+                        ths.addProductIcon.MouseLeave += new System.EventHandler(ths.addProductB_Leave);
+                        ths.addProductIcon.MouseHover += new System.EventHandler(ths.addProductB_Hover);
                     }
                     //--------------------------------------------------------------------------------
                     // logout

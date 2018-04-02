@@ -46,8 +46,8 @@ namespace Demo
             {
                 this.hf = new Demo.homeForm(this);
                 this.bgPanel.Controls.Add(this.hf);
-                //this.hf.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-                //this.hf.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+                //this.hf.autoscaledimensions = new system.drawing.sizef(6f, 13f);
+                //this.hf.autoscalemode = system.windows.forms.autoscalemode.font;
                 this.hf.Location = new System.Drawing.Point(126, 60);
                 this.hf.BackColor = System.Drawing.Color.Transparent;
                 this.hf.Name = "homeForm";
@@ -102,6 +102,11 @@ namespace Demo
             {
                 this.bgPanel.Controls.Remove(this.clf);
                 this.clf.Dispose();
+            }
+            if (this.bgPanel.Contains(this.ap))
+            {
+                this.bgPanel.Controls.Remove(this.ap);
+                this.ap.Dispose();
             }
 
         }
@@ -172,7 +177,11 @@ namespace Demo
                 this.bgPanel.Controls.Remove(this.pf);
                 this.pf.Dispose();
             }
-
+            if (this.bgPanel.Contains(this.ap))
+            {
+                this.bgPanel.Controls.Remove(this.ap);
+                this.ap.Dispose();
+            }
         }
 
         public void bHistory_Click(object sender, EventArgs e)
@@ -233,6 +242,11 @@ namespace Demo
                 this.bgPanel.Controls.Remove(this.pf);
                 this.pf.Dispose();
             }
+            if (this.bgPanel.Contains(this.ap))
+            {
+                this.bgPanel.Controls.Remove(this.ap);
+                this.ap.Dispose();
+            }
         }
         public void editClient_Click(object sender, EventArgs e)
         {
@@ -286,6 +300,11 @@ namespace Demo
             {
                 this.bgPanel.Controls.Remove(this.pf);
                 this.pf.Dispose();
+            }
+            if (this.bgPanel.Contains(this.ap))
+            {
+                this.bgPanel.Controls.Remove(this.ap);
+                this.ap.Dispose();
             }
         }
         public void registerB_Click(object sender, EventArgs e)
@@ -356,6 +375,11 @@ namespace Demo
                 this.bgPanel.Controls.Remove(this.ec);
                 this.ec.Dispose();
             }
+            if (this.bgPanel.Contains(this.ap))
+            {
+                this.bgPanel.Controls.Remove(this.ap);
+                this.ap.Dispose();
+            }
         }
 
         public void profileB_Click(object sender, EventArgs e)
@@ -385,6 +409,82 @@ namespace Demo
                 pf.Name = "ProfileForm";
                 pf.Size = new System.Drawing.Size(608, 335);
                 this.pf.BringToFront();
+
+            }
+            if (this.bgPanel.Contains(this.ep))
+            {
+                this.bgPanel.Controls.Remove(this.ep);
+                this.ep.Dispose();
+            }
+            if (this.bgPanel.Contains(this.ec))
+            {
+                this.bgPanel.Controls.Remove(this.ec);
+                this.ec.Dispose();
+            }
+            if (this.bgPanel.Contains(this.bh))
+            {
+                this.bgPanel.Controls.Remove(this.bh);
+                this.bh.Dispose();
+            }
+            if (this.bgPanel.Contains(this.registerForm1))
+            {
+                this.bgPanel.Controls.Remove(registerForm1);
+                this.registerForm1.Dispose();
+            }
+            if (this.bgPanel.Contains(this.productGrid))
+            {
+                this.bgPanel.Controls.Remove(productGrid);
+                this.productGrid.Dispose();
+            }
+            if (this.bgPanel.Contains(this.loginForm1))
+            {
+                this.bgPanel.Controls.Remove(this.loginForm1);
+                this.loginForm1.Dispose();
+            }
+            if (this.bgPanel.Contains(this.cf))
+            {
+                this.bgPanel.Controls.Remove(this.cf);
+                this.cf.Dispose();
+            }
+            if (this.bgPanel.Contains(this.ap))
+            {
+                this.bgPanel.Controls.Remove(this.ap);
+                this.ap.Dispose();
+            }
+
+        }
+
+        public void addProductB_Click(object sender, EventArgs e)
+        {
+            this.panel8.BackColor = Color.FromArgb(0, 255, 0);
+            this.panel5.BackColor = Color.FromArgb(0, 0, 0);
+            this.panel6.BackColor = Color.FromArgb(0, 0, 0);
+            this.panel7.BackColor = Color.FromArgb(0, 0, 0);
+            if (this.bgPanel.Contains(this.clf))
+            {
+                this.bgPanel.Controls.Remove(this.clf);
+                this.clf.Dispose();
+            }
+            if (this.bgPanel.Contains(this.hf))
+            {
+                this.bgPanel.Controls.Remove(this.hf);
+                this.hf.Dispose();
+            }
+            if(this.bgPanel.Contains(this.pf))
+            {
+                this.bgPanel.Controls.Remove(this.pf);
+                this.pf.Dispose();
+            }
+            if (!this.bgPanel.Contains(this.ap))
+            {
+                this.ap = new Demo.addProduct(this);
+                this.bgPanel.Controls.Add(this.ap);
+                this.ap.BackColor = System.Drawing.Color.Transparent;
+                this.ap.Location = new System.Drawing.Point(38, 32);
+                this.ap.Name = "addProduct";
+                this.ap.Size = new System.Drawing.Size(654, 392);
+                this.ap.TabIndex = 2;
+                this.ap.BringToFront();
 
             }
             if (this.bgPanel.Contains(this.ep))
@@ -515,12 +615,28 @@ namespace Demo
             this.profileB.ForeColor = Color.FromArgb(0, 0, 0);
             this.profileIcon.Image = global::Demo.Properties.Resources.avatar;
         }
+        public void addProductB_Hover(object sender, EventArgs e)
+        {
+            this.addProductB.Cursor = Cursors.Hand;
+            this.addProductIcon.Cursor = Cursors.Hand;
+            this.addProductB.BackColor = Color.FromArgb(0, 255, 0);
+            this.addProductIcon.BackColor = Color.FromArgb(0, 229, 0);
+            this.addProductB.ForeColor = Color.FromArgb(0, 0, 0);
+            this.addProductIcon.Image = global::Demo.Properties.Resources.addP;
+        }
         public void profileB_Leave(object sender, EventArgs e)
         {
             this.profileB.BackColor = Color.FromArgb(0, 0, 0);
             this.profileB.ForeColor = Color.FromArgb(0, 255, 0);
             this.profileIcon.BackColor = Color.FromArgb(0, 0, 0);
             this.profileIcon.Image = global::Demo.Properties.Resources.avatarg;
+        }
+        public void addProductB_Leave(object sender, EventArgs e)
+        {
+            this.addProductB.BackColor = Color.FromArgb(0, 0, 0);
+            this.addProductB.ForeColor = Color.FromArgb(0, 255, 0);
+            this.addProductIcon.BackColor = Color.FromArgb(0, 0, 0);
+            this.addProductIcon.Image = global::Demo.Properties.Resources.addPg;
         }
 
         public void login_Hover(object sender, EventArgs e)
@@ -591,6 +707,7 @@ namespace Demo
         {
             this.closeIcon.Size = new Size(30,30);
         }
+        
         public void closer_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -673,12 +790,18 @@ namespace Demo
                 this.bgPanel.Controls.Remove(this.cf);
                 this.cf.Dispose();
             }
+            if (this.bgPanel.Contains(this.ap))
+            {
+                this.bgPanel.Controls.Remove(this.ap);
+                this.ap.Dispose();
+            }
         }
 
         public void logoutPanel_Click(object sender, EventArgs e)
         {
             if(cartp!=null)
                 this.cartp.Dispose();
+
             this.cartp = null;
             this.client = null;
             this.admin = null;
@@ -693,6 +816,10 @@ namespace Demo
                 this.bHistoryIcon.Dispose();
                 this.profileB.Dispose();
                 this.profileIcon.Dispose();
+                this.addProductIcon.Dispose();
+                this.addProductB.Dispose();
+
+                
             }
             this.title.Text = "Welcome guest";
             //---------------------------------------------------
@@ -707,7 +834,7 @@ namespace Demo
             this.registerIcon.Image = global::Demo.Properties.Resources.registerg;
             this.registerIcon.Location = new System.Drawing.Point(23, 283);
             this.registerIcon.Name = "registerIcon";
-            this.registerIcon.Size = new System.Drawing.Size(32, 44);
+            this.registerIcon.Size = new System.Drawing.Size(41, 44);
             this.registerIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.registerIcon.TabIndex = 9;
             this.registerIcon.TabStop = false;
@@ -874,6 +1001,11 @@ namespace Demo
                 this.bgPanel.Controls.Remove(this.loginForm1);
                 this.loginForm1.Dispose();
             }
+            if (this.bgPanel.Contains(this.ap))
+            {
+                this.bgPanel.Controls.Remove(this.ap);
+                this.ap.Dispose();
+            }
             if (!this.bgPanel.Contains(cf))
             {
                 Demo.Program.getData(this);
@@ -910,7 +1042,8 @@ namespace Demo
         public System.Windows.Forms.PictureBox bHistoryIcon;
         public System.Windows.Forms.PictureBox profileIcon;
         public System.Windows.Forms.Button profileB;
-
+        public System.Windows.Forms.PictureBox addProductIcon;
+        public System.Windows.Forms.Button addProductB;
         public System.Windows.Forms.Panel logoutPanel;
         public System.Windows.Forms.Label logoutlab;
         public System.Windows.Forms.PictureBox logoutIcon;
@@ -923,6 +1056,7 @@ namespace Demo
         public BuyHistory bh;
         public ProfileForm pf;
         public EditProduct ep;
+        public addProduct ap;
         public homeForm hf;
         public ClientsForm clf;
         public EditClient ec;
