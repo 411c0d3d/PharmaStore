@@ -816,10 +816,14 @@ namespace Demo
                 this.bHistoryIcon.Dispose();
                 this.profileB.Dispose();
                 this.profileIcon.Dispose();
+                
+            }
+            if (addProductB != null)
+            {
                 this.addProductIcon.Dispose();
                 this.addProductB.Dispose();
-
-                
+                this.editClientIcon.Dispose();
+                this.editClient.Dispose();
             }
             this.title.Text = "Welcome guest";
             //---------------------------------------------------
