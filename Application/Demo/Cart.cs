@@ -140,12 +140,12 @@ namespace Demo
                     SqlParameter param = new SqlParameter("@oid", oid);
                     cmd.Parameters.Add(param);
                     int result = cmd.ExecuteNonQuery();
-                    if (result == 0)
+                    if (result == -1 || result == 0)
                     {
                         MessageBox.Show("payment failed");
                         return;
                     }
-                    else
+                    else if (result != -1 && result != 0)
                     {
                         MessageBox.Show("payment successful");
                         
