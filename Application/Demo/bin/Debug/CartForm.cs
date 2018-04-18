@@ -94,7 +94,7 @@ namespace Demo
                 this.price[k].Name = "price"+k;
                 this.price[k].Size = new System.Drawing.Size(35, 13);
                 this.price[k].TabIndex = 3;
-                this.price[k].Text = ths.cart.CartProducts[k].Price.ToString()+"DH";
+                this.price[k].Text = ths.cart.CartProducts[k].Price.ToString()+" Dh";
                 this.price[k].ForeColor = Color.FromArgb(0, 255, 0);
                 this.price[k].BringToFront();
                 //category

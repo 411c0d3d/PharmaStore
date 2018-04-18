@@ -46,12 +46,10 @@ namespace Demo
             {
                 this.hf = new Demo.homeForm(this);
                 this.bgPanel.Controls.Add(this.hf);
-                //this.hf.autoscaledimensions = new system.drawing.sizef(6f, 13f);
-                //this.hf.autoscalemode = system.windows.forms.autoscalemode.font;
-                this.hf.Location = new System.Drawing.Point(126, 60);
+                this.hf.Location = new System.Drawing.Point(95, 60);
                 this.hf.BackColor = System.Drawing.Color.Transparent;
                 this.hf.Name = "homeForm";
-                this.hf.Size = new System.Drawing.Size(402, 272);
+                this.hf.Size = new System.Drawing.Size(518, 459);
             }
             if (this.bgPanel.Contains(this.ep))
             {

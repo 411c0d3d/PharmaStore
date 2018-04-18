@@ -318,7 +318,7 @@ namespace Demo
                         ths.addProductB.Name = "addProductB";
                         ths.addProductB.Size = new System.Drawing.Size(186, 44);
                         ths.addProductB.TabIndex = 10;
-                        ths.addProductB.Text = "              addProduct";
+                        ths.addProductB.Text = "         + New Product";
                         ths.addProductB.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
                         ths.addProductB.UseVisualStyleBackColor = true;
                         ths.addProductB.Click += new System.EventHandler(ths.addProductB_Click);

@@ -61,7 +61,7 @@
             this.submit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.submit.FlatAppearance.BorderColor = System.Drawing.Color.Green;
             this.submit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.submit.ForeColor = System.Drawing.Color.Green;
+            this.submit.ForeColor = System.Drawing.Color.Lime;
             this.submit.Location = new System.Drawing.Point(107, 157);
             this.submit.Name = "submit";
             this.submit.Size = new System.Drawing.Size(121, 30);

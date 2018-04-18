@@ -51,7 +51,7 @@ namespace Demo
 
         private void submit_Click(object sender, EventArgs e)
         {
-            if(Int32.Parse(priceBox.Text) > 0  && nameBox.Text.Length >5 && qunatBox.TextLength > 1 && imageBox.ImageLocation.Length > 0 && CategoryBox.TextLength >0 && providerBox.TextLength > 0)
+            if(float.Parse(priceBox.Text) > 0  && nameBox.Text.Length >5 && qunatBox.TextLength > 0 && imageBox.ImageLocation.Length > 0 && CategoryBox.TextLength >0 && providerBox.TextLength > 0)
             {
                 using (SqlConnection conn = new SqlConnection())
                 {

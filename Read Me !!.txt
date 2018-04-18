@@ -14,7 +14,9 @@
     Pharmacy Inventory and Products
     Stock Management
 #-2 
-    Ecommerce UX/UI theme
+    Ecommerce
+        Single UI
+        Dual UX ( admin / client )
 
 //------ InfraStructure
 
@@ -25,9 +27,9 @@
 
 //------ How to Use :
 
-1) Open Application folder using some C# recognized IDE
+1) Open Application folder using some C# recognition IDE
 2) Navigate to App.config file
-3) Change paramert Source from "MONSTER" to your local MS SQL SERVER name { example : "Source=MyServer" }
+3) Change parameters Source from "MONSTER" to your local MS SQL SERVER name { example : "Source=MyServer" }
 4) Save the file
 5) DataBase is empty so you'll have to add Products from Admin Space  ( Authentication required )
 

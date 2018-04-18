@@ -42,10 +42,10 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -140,7 +140,7 @@
             this.submit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.submit.FlatAppearance.BorderColor = System.Drawing.Color.Green;
             this.submit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.submit.ForeColor = System.Drawing.Color.Green;
+            this.submit.ForeColor = System.Drawing.Color.Lime;
             this.submit.Location = new System.Drawing.Point(111, 275);
             this.submit.Name = "submit";
             this.submit.Size = new System.Drawing.Size(121, 30);
@@ -197,34 +197,10 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(0)))));
-            this.panel3.Location = new System.Drawing.Point(163, 76);
+            this.panel3.Location = new System.Drawing.Point(196, 76);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(192, 10);
+            this.panel3.Size = new System.Drawing.Size(83, 10);
             this.panel3.TabIndex = 13;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(0)))));
-            this.panel4.Location = new System.Drawing.Point(163, 128);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(192, 10);
-            this.panel4.TabIndex = 14;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(0)))));
-            this.panel5.Location = new System.Drawing.Point(163, 180);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(192, 10);
-            this.panel5.TabIndex = 15;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(0)))));
-            this.panel6.Location = new System.Drawing.Point(163, 229);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(192, 10);
-            this.panel6.TabIndex = 16;
             // 
             // label1
             // 
@@ -236,15 +212,39 @@
             this.label1.TabIndex = 17;
             this.label1.Text = "Error Log";
             // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(0)))));
+            this.panel4.Location = new System.Drawing.Point(196, 128);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(83, 10);
+            this.panel4.TabIndex = 18;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(0)))));
+            this.panel5.Location = new System.Drawing.Point(196, 181);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(83, 10);
+            this.panel5.TabIndex = 19;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(0)))));
+            this.panel6.Location = new System.Drawing.Point(196, 229);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(83, 10);
+            this.panel6.TabIndex = 19;
+            // 
             // registerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.submit);
             this.Controls.Add(this.panel1);
@@ -282,9 +282,9 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label1;
     }
 }

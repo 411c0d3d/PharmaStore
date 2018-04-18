@@ -29,6 +29,7 @@ namespace Demo
         private void Products_Load(object sender, EventArgs e)
         {
            
+           this.products = Program.get_Products();
             int xpos = 14, ypos = 3,k=0;
             for (int i = 0; i < (float)nProducts / 3; i++)
             {
@@ -76,7 +77,7 @@ namespace Demo
                     ((System.ComponentModel.ISupportInitialize)(this.pB[k])).EndInit();
                     //---------------------------------------------
                     this.clab[k].AutoSize = true;
-                    this.clab[k].Location = new System.Drawing.Point(65, 3);
+                    this.clab[k].Location = new System.Drawing.Point(55, 3);
                     this.clab[k].MinimumSize = new System.Drawing.Size(68, 20);
                     this.clab[k].Name = "category"+k;
                     this.clab[k].ForeColor = Color.FromArgb(0, 255, 0);
@@ -117,7 +118,7 @@ namespace Demo
                     this.plab[k].ForeColor = Color.FromArgb(0, 255, 0);
                     this.plab[k].TabIndex = 1;
                     this.plab[k].TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-                    this.plab[k].Text = products[k].Price.ToString();
+                    this.plab[k].Text = products[k].Price.ToString() + " Dh";
                     this.plab[k].Cursor = Cursors.Hand;
                     //--------------------------------------------------
                     int index = k;
@@ -229,7 +230,7 @@ namespace Demo
 
 
         static int nProducts = Program.get_Number_Products();
-        public Product[] products = Program.get_Products();
+        public Product[] products;
 
         public Panel[] P = new Panel[nProducts];
         PictureBox[] pB = new PictureBox[nProducts];

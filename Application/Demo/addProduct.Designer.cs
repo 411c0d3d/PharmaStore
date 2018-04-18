@@ -81,7 +81,7 @@
             this.nameBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(0)))));
             this.nameBox.Location = new System.Drawing.Point(224, 123);
             this.nameBox.Name = "nameBox";
-            this.nameBox.Size = new System.Drawing.Size(100, 22);
+            this.nameBox.Size = new System.Drawing.Size(129, 22);
             this.nameBox.TabIndex = 17;
             // 
             // submit
@@ -90,7 +90,7 @@
             this.submit.FlatAppearance.BorderColor = System.Drawing.Color.Green;
             this.submit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.submit.ForeColor = System.Drawing.Color.Lime;
-            this.submit.Location = new System.Drawing.Point(292, 348);
+            this.submit.Location = new System.Drawing.Point(175, 348);
             this.submit.Name = "submit";
             this.submit.Size = new System.Drawing.Size(121, 30);
             this.submit.TabIndex = 16;
@@ -147,7 +147,7 @@
             this.providerBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(0)))));
             this.providerBox.Location = new System.Drawing.Point(224, 241);
             this.providerBox.Name = "providerBox";
-            this.providerBox.Size = new System.Drawing.Size(100, 22);
+            this.providerBox.Size = new System.Drawing.Size(129, 22);
             this.providerBox.TabIndex = 23;
             // 
             // providerLab
@@ -168,7 +168,7 @@
             this.CategoryBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(0)))));
             this.CategoryBox.Location = new System.Drawing.Point(224, 279);
             this.CategoryBox.Name = "CategoryBox";
-            this.CategoryBox.Size = new System.Drawing.Size(100, 22);
+            this.CategoryBox.Size = new System.Drawing.Size(129, 22);
             this.CategoryBox.TabIndex = 25;
             // 
             // CategoryLab
@@ -193,9 +193,9 @@
             // 
             // imageBox
             // 
-            this.imageBox.Location = new System.Drawing.Point(455, 269);
+            this.imageBox.Location = new System.Drawing.Point(433, 255);
             this.imageBox.Name = "imageBox";
-            this.imageBox.Size = new System.Drawing.Size(156, 98);
+            this.imageBox.Size = new System.Drawing.Size(218, 123);
             this.imageBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imageBox.TabIndex = 28;
             this.imageBox.TabStop = false;
