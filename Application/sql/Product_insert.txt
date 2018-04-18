@@ -1,2 +1,0 @@
-insert into Product(pname,price,quantity,category,provider,img) values('Tramadol',70,25,'Analgesiques','Cooper',(SELECT BulkColumn 
-FROM Openrowset( Bulk 'C:\Users\vntm_\Desktop\medicines\1.png', Single_Blob) as imgx));
