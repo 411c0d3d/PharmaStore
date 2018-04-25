@@ -91,3 +91,5 @@ D:\Projects\PharmaStore\Application\Demo\obj\Debug\Demo.registerForm.resources
 D:\Projects\PharmaStore\Application\Demo\obj\Debug\Demo.preLogin.resources
 D:\Projects\PharmaStore\Application\Demo\obj\Debug\Demo.csproj.GenerateResource.Cache
 D:\Projects\PharmaStore\Application\Demo\obj\Debug\Demo.addProduct.resources
+D:\Projects\PharmaStore\Application\Demo\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\PharmaStore\Application\Demo\bin\Debug\Newtonsoft.Json.xml

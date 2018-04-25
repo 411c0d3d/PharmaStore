@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Xml;
+using System.Xml.Linq;
+using System.IO;
 
 namespace Demo
 {
@@ -154,7 +157,7 @@ namespace Demo
                 this.cancel[k].TabStop = false;
                 this.cancel[k].Cursor = Cursors.Hand;
                 this.cancel[k].BringToFront();
-                this.cancel[k].Click += (sen, EventArgs) => { cancel_Click(sender, EventArgs, index); };
+                this.cancel[k].Click += (sen, EventArgs) => { this.cancel_Click(sender, EventArgs, index); };
                 this.cancel[k].MouseLeave += (sen, EventArgs) => { this.cancel_Leave(sender, EventArgs, index); };
                 this.cancel[k].MouseHover += (sen, EventArgs) => { this.cancel_Hover(sender, EventArgs, index); };
 
@@ -174,7 +177,29 @@ namespace Demo
             else
             {
                 MessageBox.Show("Insuffisant DH !");
+                System.Diagnostics.Process.Start(@"D:\Projects\pharmaStore\Payment\index.html");
+                using (XmlWriter writer = XmlWriter.Create(@"D:\Projects\pharmaStore\Payment\Order.xml"))
+                {
+                    writer.WriteStartDocument();
+                    writer.WriteStartElement("Product");
+                    writer.WriteElementString("price", ths.cart.CartProducts[k].Price.ToString());
+                    writer.WriteElementString("state", "pending");
+                    writer.WriteEndElement();
+                    writer.WriteEndDocument();
+                }
+
+
+                XDocument xdoc = XDocument.Load(@"D:\Projects\pharmaStore\Payment\Order.xml");
+
+                while (File.Exists(@"D:\Projects\pharmaStore\Payment\Order.xml")) {
+                        ths.cart.BuyOrder(ths.cart.CartProducts[k].Pid, ths.cart.Oids[k]);
+                        this.Dispose();
+                        this.CartForm_Load(sen, e);
+                        ths.cartp_Click(sen, e);
+                        //Program.getData(ths);
+                }
             }
+                
         }
         void cancel_Click(object sen, EventArgs e, int k)
         {

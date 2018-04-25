@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400, 700,300);
 body {
-  background-color: #ffb242;
+  background-color: rgb(41, 41, 41);
   font-family: lato, 'helvetica-light';
   position: relative;
   text-transform: uppercase;
@@ -23,7 +23,7 @@ body {
 
 #card-btn {
   background-color: rgba(251, 251, 251, 0.8);
-  color: #ffb242;
+  color: rgb(41, 41, 41);
   position: absolute;
   bottom: -55px;
   right: 0;

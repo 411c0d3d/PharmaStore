@@ -1,9 +1,18 @@
+var xhttp = new XMLHttpRequest();
+var data = xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        document.getElementById('amount').innerHTML += this.responseXML.getElementsByTagName('price')[0].lastChild.data +" Dh";
+          //LocalStorage.setItem("state",this.responseXML.getElementsByTagName('state')[0].lastChild.data
+          return this.responseXML;
+	}
+    };
+    
+    xhttp.open("GET", "Order.xml", true);
+    xhttp.send();
+
 $(document).ready(function () {
-
     Stripe.setPublishableKey('pk_test_9D43kM3d2vEHZYzPzwAblYXl');
-
     var cardNumber, cardMonth, cardYear, cardCVC, cardHolder;
-
     // check for any empty inputs
     function findEmpty() {
         var emptyText = $('#form-container input').filter(function () {
@@ -68,7 +77,6 @@ $(document).ready(function () {
             $('#card-error').text('Please complete all fields.');
             findEmpty();
         } else {
-
             // alert the user if any fields are invalid
             if (!isValidNo || !isValidExpiry || !isValidCVC) {
                 $('#form-errors').css('display', 'block');
@@ -82,6 +90,12 @@ $(document).ready(function () {
 
             } else {
                 $('#card-success').removeClass('hidden');
+                data.getElementsByTagName('state')[0].lastChild.data = "done";
+                data.save("Order.xml");
+	var myObject;
+        myObject = new ActiveXObject("Scripting.FileSystemObject");
+        var f = myObject.GetFile("Order.xml");
+        f.Delete();
             }
         }
     })
