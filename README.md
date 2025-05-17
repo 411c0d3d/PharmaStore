@@ -1,4 +1,4 @@
-# pharmaStore
+# PharmaStore
 eCommerce windows desktop app &amp; stock management ... built with C#
 //--------------- CopyRights PharmaStore 2018
 
