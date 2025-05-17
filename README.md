@@ -2,9 +2,9 @@
 eCommerce windows desktop app &amp; stock management ... built with C#
 //--------------- CopyRights PharmaStore 2018
 
-/* Copyright (C) 2018 10n3r - All Rights Reserved
+/* Copyright (C) 2018 salah411 - All Rights Reserved
  * You may use, distribute and modify this code under the
- * terms of the velaVerde license, .
+ * terms of the MIT license, .
  * You should have received a copy of the velaVerde license with
  * this file. If not, please write to: sa.c0d3d@gmail.com
 ~~~~
